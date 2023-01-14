@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+/*demais mideas*/
+
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    /*Tablet*/
+
+    * {
+        margin: 0px;
+        padding: 0px;
+
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    html {
+        height: 100vh;
+
+    }
+
+
+    body {
+        background-image: url(../images/pexels-hasan-albari-1229861.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+
+
+    }
+
+    h1#principal {
+        text-align: center;
+
+        margin: 10px 0px 20px 0px;
+        font-size: 2.3em;
+
+    }
+
+    main {
+        padding: 10px;
+        width: 32em;
+        margin: auto;
+
+
+        background-color: rgba(255, 255, 255, 0.741);
+        border-radius: 10px;
+        text-align: center;
+
+    }
+
+    p {
+        line-height: 1.5em;
+        font-weight: 200;
+
+
+    }
+}
